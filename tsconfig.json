@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ES5",
+    "module": "es6",
+    "lib": ["dom", "ES2015"],
+    "outDir": "./dist",
+    "strict": true,
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "downlevelIteration": true
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": ["tests/*"]
+}
